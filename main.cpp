@@ -1,10 +1,11 @@
 #include <cstdlib>
-#include <iostream>
+#include "duck.h"
+#include "redheadduck.h"
 
-using namespace std;
-
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
+    Duck *d1 = new RedheadDuck();
+    d1->display();
+    d1->fly();
     system("PAUSE");
     return EXIT_SUCCESS;
 }
