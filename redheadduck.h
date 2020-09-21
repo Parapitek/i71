@@ -5,6 +5,7 @@
 
 class RedheadDuck : public Duck {
 public:
+    RedheadDuck();
     virtual void display();
 };
 

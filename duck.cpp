@@ -1,13 +1,13 @@
 #include "duck.h"
 
-void Duck::quack() {
-    cout << "Krya-krya" << endl;
+void Duck::performQuack() {
+     quackBehavior->quack();
+}
+
+void Duck::performFly() {
+     flyBehavior->fly();
 }
 
 void Duck::swim() {
     cout << "Ya plyvu" << endl;
-}
-
-void Duck::fly() {
-    cout << "Ya lechu" << endl;
 }

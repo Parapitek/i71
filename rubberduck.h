@@ -5,8 +5,8 @@
 
 class RubberDuck : public Duck {
 public:
+    RubberDuck();   
     virtual void display();
-    void quack();  //резиновые не крякают
 };
 
 #endif    
